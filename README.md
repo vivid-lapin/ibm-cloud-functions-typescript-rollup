@@ -1,8 +1,10 @@
-# ibm-cloud-functions-typescript-rollup
+# [ibm-cloud-functions-typescript-rollup](https://github.com/vivid-lapin/ibm-cloud-functions-typescript-rollup)
 
 Template for IBM Cloud Functions with TypeScript and rollup.
 
 [日本語](https://scrapbox.io/ci7lus/IBM_Cloud_Functions%E3%81%A7%E3%83%90%E3%83%83%E3%82%AF%E3%82%B0%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%89%E5%87%A6%E7%90%86%E3%82%92%E3%81%99%E3%82%8B2021%E5%B9%B48%E6%9C%88%E7%89%88)
+
+[Webpack version](https://github.com/vivid-lapin/ibm-cloud-functions-typescript-template)
 
 ## How to use
 
@@ -11,8 +13,8 @@ Template for IBM Cloud Functions with TypeScript and rollup.
 1. Install `ibmcloud` cli & login
    ```bash
       brew install ibm-cloud-cli
-      ibmcloud plugin install cloud-functions
       # it conflicts with /Application/Docker.app that not installed by brew cask
+      ibmcloud plugin install cloud-functions
       ibmcloud login --apikey <APIKEY>
       ibmcloud resource groups
       ibmcloud target -g <default group id>
